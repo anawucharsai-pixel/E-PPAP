@@ -3,8 +3,7 @@
  * 1) Put your Web app URL below (Apps Script > Deploy > Manage deployments > Web app URL, ends with /exec)
  * 2) Upload this file next to index.html in the GitHub repo.
  */
-const API_URL = https://script.google.com/macros/s/AKfycbylxm92sTqK1BZGQbaOKa5fwpNt-4g1GcuUhvKao5w3SVl971ilMWQyC4Oadw_HpsA6/exec;
-
+const API_URL = 'https://script.google.com/macros/s/AKfycbylxm92sTqK1BZGQbaOKa5fwpNt-4g1GcuUhvKao5w3SVl971ilMWQyC4Oadw_HpsA6/exec';
 window.google = { script: { run: (function () {
   function make(ok, fail) {
     return {
